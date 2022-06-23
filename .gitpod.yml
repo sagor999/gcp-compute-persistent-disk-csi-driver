@@ -5,3 +5,7 @@ image: gitpod/workspace-go:latest
 
 tasks:
   - init: make gce-pd-driver
+
+vscode:
+  extensions:
+    - golang.go
